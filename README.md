@@ -1,7 +1,9 @@
 # card-bin-validator
-PHP Card BIN code validaton API. 
+PHP Card BIN code validaton API.
+
 Credit and Debit Card validation.
-BIN: 6 first digit of the card.
+
+BIN: 6 first digits of the card.
 
 ## Usage
 index.php?bin=377790
