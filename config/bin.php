@@ -1,7 +1,7 @@
 <?php
 /**
  * BIN Database Country Argentina - AR
- * @version 1.0.1
+ * @version 1.0.2
  * FIRST DIGIT: 3 -> AMEX
  *				4 -> VISA
  * 				5 -> MASTERCARD
@@ -76,6 +76,36 @@ return array(
 		'CVV_LONG'  => 3,
 		'CHAR_LONG' => 16
 	),
+	521373 => array(
+		'BANK' 	    => 'BBVA BANCO FRANCES',
+		'CARD_TYPE' => 'CREDIT',
+		'BRAND'	    => 'MASTERCARD',
+		'LEVEL'		=> 'PLATINUM',
+		'CVV_LONG'  => 3,
+		'CHAR_LONG' => 16
+	),
+	530456 => array(
+		'BANK' 	    => 'BANCO DE LA NACION ARGENTINA',
+		'CARD_TYPE' => 'CREDIT',
+		'BRAND'	    => 'MASTERCARD',
+		'CVV_LONG'  => 3,
+		'CHAR_LONG' => 16
+	),
+	485715 => array(
+		'BANK' 	    => 'HSBC',
+		'CARD_TYPE' => 'CREDIT',
+		'BRAND'	    => 'VISA',
+		'CVV_LONG'  => 3,
+		'CHAR_LONG' => 16
+	),
+	479352 => array(
+		'BANK' 	    => 'Banco Credicoop Cooperativo Ltdo',
+		'CARD_TYPE' => 'CREDIT',
+		'BRAND'	    => 'VISA',
+		'LEVEL'		=> 'PREMIER',
+		'CVV_LONG'  => 3,
+		'CHAR_LONG' => 16
+	),
 	489321 => array(
 		'BANK' 	    => 'BANCO DE LA PROVINCIA DE BUENOS AIRES',
 		'CARD_TYPE' => 'CREDIT',
@@ -99,7 +129,7 @@ return array(
 		'CHAR_LONG' => 16
 	),
 	501041 => array(
-		'BANK' 	    => 'NACION',
+		'BANK' 	    => 'BANCO DE LA NACION ARGENTINA',
 		'CARD_TYPE' => 'DEBIT',
 		'BRAND'	    => 'MAESTRO',
 		'CVV_LONG'  => 3,
